@@ -8,7 +8,7 @@ echo 'gitbook build ...'
 cd ../
 gitbook build $path $path/docs
 
-cd leetcode
+cd $path
 
 echo 'git add all ...'
 git add --all
